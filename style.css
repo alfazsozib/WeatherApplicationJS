@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+.page-title{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#weather-section{
+    margin-top: 10rem;
+}
+.weather-box{
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 40px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.weather-box > input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.weather-box > button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.521);
+    color: white;
+    font-weight: bold;
+}
+
+.weather-box > button:hover{
+    background-color: blue;
+}
+
+.hidden{
+    display: none;
+}
+
+
+#result-section{
+    margin-top: 10rem;
+}
+/* .result-box{
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 40px;
+    justify-self: center;
+    border-radius: 10px;
+} */
+
+.err-msg{
+    color: red;
+}
+
+.result-box{
+    color: wheat;
+}
+
+#error-message{
+    color: red;
+}
